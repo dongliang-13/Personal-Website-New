@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--CSS links-->
+        <link rel="stylesheet" href="styles/contact.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/topScroll.css">
+        <link rel="stylesheet" href="styles/transition.css">
+        <!--/CSS links-->
+
+        <!--External CSS link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montagu+Slab:opsz,wght@16..144,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allerta&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+        <!--/External CSS link-->
+
+        <!--Meta tags-->
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <!--/Meta tags-->
+
+        <!--Extras-->
+        <link rel="icon" href="images/iconTab.png">
+        <title>Contact</title>
+        <!--/Extras-->
+    </head>
+    <body>
+        <div class="transition transition-5 is-active"></div>
+
+        <nav id="header"></nav>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane fa-beat"></i>Sayiongod@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume fa-beat"></i>(646)925-0296</p>
+                    </div>
+                    <div class="contact-right">
+                        <form name = "submit-to-google-sheet">
+                            <input type = "text" name = "Name" placeholder="Your Name" required>
+                            <input type = "email" name = "Email" placeholder="Your Email" required>
+                            <textarea name = "Message" rows = "6" placeholder="Message" required></textarea>
+                            <button  onclick = "submitClicked()" type = "submit">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+        <div id = "topScroll"></div>
+        <!--External js frame links-->
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://kit.fontawesome.com/44e15d51c6.js" crossorigin="anonymous"></script>
+        <!--/External js frame links-->
+
+        <!--JS links-->
+        <script src="js/transition.js"></script>
+        <script src="data/index-data.js"></script>
+        <script src="js/topScroll.js"></script>
+        <script src="js/contact.js"></script>
+        <script src="js/header.js"></script>
+        <script src="data/footer-data.js"></script>
+        <!--/JS links-->
+    </body>
+</html>

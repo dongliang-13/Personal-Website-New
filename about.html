@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--CSS links-->
+        <link rel="stylesheet" href="styles/about.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/topScroll.css">
+        <link rel="stylesheet" href="styles/transition.css">
+        <!--/CSS links-->
+
+        <!--External CSS link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montagu+Slab:opsz,wght@16..144,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allerta&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!--/External CSS link-->
+
+        <!--Meta tags-->
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <!--/Meta tags-->
+
+        <!--Extras-->
+        <link rel="icon" href="images/iconTab.png">
+        <title>About</title>
+        <!--/Extras-->
+    </head>
+    <body>
+        <div class="transition transition-5 is-active"></div>
+
+        <nav id="header"></nav>
+        
+        <div class="about-section-1">
+            <div class="top-left">
+                <h1>I'm Dong!</h1>
+                <p>Got questions or need a chat? Shoot me
+                    an email at sayiongod@gmail.com or 
+                    go to the Contact page!
+                </p>
+                <button onclick="window.open('https://docs.google.com/document/d/1U3fDaSnu97W8wlQZRGcVs0k6elWDNLbLMGOWq7oQ0Y0/edit?usp=sharing', '_blank')">Resume</button>
+            </div>
+            <div class="top-right">
+                <img src="images\about-pfp.png">
+            </div>
+            <div class="top-right-last"></div>
+        </div>
+
+        <div class="about-section-2">
+            <div class = "left-2">
+                <img src="images\about-pfp-2.png" data-aos="fade-up" data-aos-easing="ease-in">
+            </div>
+            <div class = "right-2" data-aos="fade-up" data-aos-easing="ease-in">
+                <h1>About Me</h1>
+                <p>
+                    I'm currently an undergrad from Stony Brook University Class of 
+                    2025 with a major in Computer Science. Growing up in 
+                    Brooklyn, New York, I've spent countless hours in public libraries
+                    , not for the books but for the free reservation for computers. Through them, 
+                    I quickly found myself in the process behind games and websites. 
+                    As I grew older, programming shaped my character and gave me a new
+                    view of our modern technological world. In college, I wanted to inform others
+                    of the beauty behind programming thus founding the first Web Development Club 
+                    at my University. I'm always looking for new opportunities in software engineering,
+                    where I can not only meet others with similar interests but also better people's
+                    lives by developing newer and more efficient software.
+                </p>
+                <p>
+                    Outside programming, I would go to a nearby park or indoor gym for basketball, 
+                    or go out to expand my tasted-food list as a foodie. When it comes to 
+                    basketball, I enjoy the sound of a swish and playing with new people. Drop me 
+                    a message if you might want to hoop together!
+                </p>
+            </div>
+        </div>
+
+        <div class="extra-info">
+            <div class="extra-info-left" data-aos="fade-up" data-aos-easing="ease-in">
+                <h1>Fun Facts</h1>
+                <p>
+                    <ul>
+                        <li>I'm left handed (10% of the population)</li>
+                        <li>I'm CPR Certified on June 21, 2023</li>
+                        <li>Pet Peeve: Sound of nails scraping chalkboard</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="extra-info-right" data-aos="fade-up" data-aos-easing="ease-in">
+                <i class="fa-solid fa-basketball" style = "color:#F88158"></i>
+                <i class="fa-solid fa-heart-pulse" style = "color:red"></i>
+            </div>
+        </div>
+
+        <nav id = "about-tab" data-aos="fade-up" data-aos-easing="ease-in">
+            <ul class="about-top-tags">
+                <li class="about-top-tag active">Experience</li>
+                <li class="about-top-tag active">Education</li>
+                <li class="about-top-tag active">Extra</li>
+            </ul>
+            <div class = "about-tab-text">
+                <div class = "text-info active">
+                    <ul>
+                        <li><span>Sep, 2023 - Dec, 2023</span><br>Undergrad TA for Data Structure @ Stony Brook University</li>
+                        <li><span>Jun, 2023 - Aug, 2023</span><br>SAT/PSAT/SHSAT Tutor @ Fusion Education</li>
+                    </ul>
+                </div>
+                <div class = "text-info">
+                    <ul>
+                        <li><span>Aug, 2022 - May, 2025</span><br>CS @ Stony Brook University</li>
+                        <li><span>Sep, 2018 - Jun, 2022</span><br>CS @ Brooklyn Technical High School</li>
+                    </ul>
+                </div>
+                <div class = "text-info">
+                    <ul>
+                        <li><span>May, 2023 - Current</span><br>Founder & President of Web Development Club @ Stony Brook University</li>
+                        <li><span>Sep, 2018 - Jun, 2022</span><br>Math Team Member @ Brooklyn Technical High School</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="footer"></div>
+        <div id = "topScroll"></div>
+        <!--External js frame links-->
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script src="https://kit.fontawesome.com/44e15d51c6.js" crossorigin="anonymous"></script>
+        <!--/External js frame links-->
+
+        <!--JS links-->
+        <script src="js/transition.js"></script>
+        <script src="data/index-data.js"></script>
+        <script src="js/topScroll.js"></script>
+        <script src="js/about.js"></script>
+        <script src="js/header.js"></script>
+        <script src="data/footer-data.js"></script>
+        <!--/JS links-->
+
+        <!--aos.js-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        <!--/aos.js-->
+    </body>
+</html>
