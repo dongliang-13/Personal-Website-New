@@ -362,6 +362,7 @@ html, body{
 
     .top-left{
         flex-grow:1;    
+        padding-left: 8vw;
     }
 
     .top-left h1{
