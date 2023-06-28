@@ -57,7 +57,7 @@ highlightProjects.forEach( (valueProject,index) => {
     htmlForProject += `
     <div class = "project-inner-container">
         <div class="project-inner-left left-${indexs}" data-aos="${left}" data-aos-easing="ease-in">
-            <img src="${valueProject.image}">
+            <img src="${valueProject.image}" alt="project picture" onclick = "window.open('${valueProject.link}','_blank')">
         </div>
         <div class="project-inner-right right-${indexs}" data-aos="${right}" data-aos-easing="ease-in">
             <div class = "project-inner-right-name">${valueProject.name}</div>
