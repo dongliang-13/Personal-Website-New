@@ -2,7 +2,7 @@
     display:none;
 }
 
-html, body{
+body{
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -40,10 +40,13 @@ html, body{
     background: #155AE0;
     height:40px;
     border:none;
-    font-size:1em;
+    font-size:15px;
+    width:90px;
+    padding: 0 15px;
     color:white;
     cursor: pointer;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .top-left button:hover{
@@ -52,6 +55,7 @@ html, body{
 }
 
 .top-right{
+    aspect-ratio: 1/1;
     display: flex;
     position: relative;
     overflow: hidden;
