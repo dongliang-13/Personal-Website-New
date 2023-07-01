@@ -260,6 +260,10 @@ body{
         height:auto;
     }
 
+    .top-left{
+        width:40vw;
+    }
+
     .top-left h1{
         margin-bottom:5px;
         font-size:40px;
@@ -377,11 +381,7 @@ body{
     }
 
     .top-left button{
-        border-radius:8.3px;
-        width:60px;
-        height:25px;
-        font-size:10px;
-        letter-spacing: 0.8px;
+        zoom:80%;
     }
 
     .top-right-last{
@@ -425,6 +425,9 @@ body{
 }
 
 @media only screen and (max-width: 360px){
+    .about-section-1{
+        height:180px;
+    }
     .top-left h1{
         font-size:1.8em;
         margin-bottom:5px;
@@ -435,10 +438,7 @@ body{
     }
 
     .top-left button{
-        border-radius:7px;
-        width:50px;
-        height:20px;
-        font-size:0.5em;
+        zoom:60%;
     }
 
     .right-2 p:last-of-type{
