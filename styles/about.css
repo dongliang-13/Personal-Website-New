@@ -41,7 +41,6 @@ body{
     height:40px;
     border:none;
     font-size:15px;
-    width:90px;
     padding: 0 15px;
     color:white;
     cursor: pointer;
@@ -276,7 +275,6 @@ body{
 
     .top-left button{
         border-radius:8.3px;
-        width:83px;
         height:33px;
         font-size:0.83em;
         letter-spacing: 1px;
