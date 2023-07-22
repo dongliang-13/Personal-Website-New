@@ -2,6 +2,7 @@ const iconForScroll = [
     "images/html.png",
     "images/js.png",
     "images/css.png",
+    "images/react.png",
     "images/python.png",
     "images/java.png",
     "images/c.png",
@@ -10,6 +11,19 @@ const iconForScroll = [
 ];
 
 const highlightProjects = [
+    {
+        name: "Pet Adopt",
+        description: `
+            Published on Jul, 2023. This project is an api-based project that fetches pets that are available for adoption. The pets used
+            in the API are not real pets but more for testing purposes.
+        `,
+        tags: ["React.JS","JSX","Responsive","REST API"],
+        image: "../images/adoptMe.png",
+        availableText: "VIEW PROJECT➞",
+        link:"https://dong-adopt-pet.netlify.app/",
+        color: "#F9EFEF",
+        textColor:"black"
+    },
     {
         name: "Amazon Replica",
         description: `
