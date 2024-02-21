@@ -24,7 +24,10 @@ footerIcon.forEach( (value) => {
 let footerHTML = `
     <div class="footer-bottom">
         <div class="footer-bottom-left">
-            © 2023 | Coded by myself & Designed by Cher
+            © 2023 | Coded by Dong Liang & Designed by&nbsp;
+            <a href="https://www.cherwang.space" target = "_blank" style = "text-decoration: underline; color: inherit;cursor: pointer;">
+                Cher
+            </a>
         </div>
         <div class="footer-bottom-right">
             ${iconHTML}
