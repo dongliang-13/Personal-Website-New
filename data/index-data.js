@@ -19,7 +19,7 @@ const highlightProjects = [
         tags: ["HTML","CSS","Javascript","React","Express","MongoDB"],
         image: "../images/fakestackover.png",
         availableText: "VIEW PROJECT➞",
-        link:"https://github.com/sbu-ckane-f23-cse316-projectorg/projectfakeso-dong",
+        link:"https://github.com/dongliang-13/fakestackoverflow",
         color: "lightblue",
         textColor:"black"
     },
