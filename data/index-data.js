@@ -12,6 +12,18 @@ const iconForScroll = [
 
 const highlightProjects = [
     {
+        name: "Chatbot AI",
+        description: `
+            Published on Aug, 2024. This project is an application that allows user to ask AI questions
+        `,
+        tags: ["Javascript","React","MaterialUI","Express","GeminiAPI"],
+        image: "",
+        availableText: "VIEW PROJECT➞",
+        link:"https://github.com/dongliang-13/ai-chatbot",
+        color: "lightblue",
+        textColor:"black"
+    },
+    {
         name: "Fake StackOverflow",
         description: `
             Published on Dec, 2024. This project is a replica of StackOverflow.com
