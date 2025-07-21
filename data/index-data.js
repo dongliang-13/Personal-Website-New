@@ -17,7 +17,7 @@ const highlightProjects = [
             Published on Aug, 2024. This project is an application that allows user to ask AI questions
         `,
         tags: ["Javascript","React","MaterialUI","Express","GeminiAPI"],
-        image: "",
+        image: "../images/chatbot_ai.png",
         availableText: "VIEW PROJECT➞",
         link:"https://github.com/dongliang-13/ai-chatbot",
         color: "lightblue",
