@@ -12,6 +12,30 @@ const iconForScroll = [
 
 const highlightProjects = [
     {
+        name: "AI Software Engineering Agent",
+        description: `
+            Ongoing. An AI-powered software engineering agent in Python that autonomously searches codebases, manages files, and executes development tasks through tool calling and natural language instructions.
+        `,
+        tags: ["Python","Gemini","Agentic AI","File System"],
+        image: "../images/ai-agent.png",
+        availableText: "ONGOING➞",
+        link:"",
+        color: "#D4EDDA",
+        textColor:"black"
+    },
+    {
+        name: "LLM Watermark (Research Reproduction)",
+        description: `
+            Published on Mar, 2026. Reproduced a token-level watermark injection pipeline by biasing green list token sampling during autoregressive text generation, with statistical z-score based detection.
+        `,
+        tags: ["Python","PyTorch","OPT-350M","Hugging Face"],
+        image: "../images/llm-watermark.png",
+        availableText: "VIEW PROJECT➞",
+        link:"https://github.com/GoodWork56/cs4782_final_project",
+        color: "#E8D5F5",
+        textColor:"black"
+    },
+    {
         name: "Chatbot AI",
         description: `
             Published on Aug, 2024. This project is an application that allows user to ask AI questions
