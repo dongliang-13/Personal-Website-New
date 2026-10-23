@@ -5,11 +5,11 @@ const footerIcon = [
     },
     {
         icon: "github",
-        link: "https://github.com/sayiongod",
+        link: "https://github.com/dongliang-13",
     },
     {
         icon: "mail",
-        link: "mailto:sayiongod@gmail.com",
+        link: "mailto:dongliang1204@gmail.com",
     },
 ];
 
@@ -25,7 +25,7 @@ let footerHTML = `
     <div class="footer-bottom">
         <div class="footer-bottom-left">
             © 2023 | Coded by Dong Liang & Designed by&nbsp;
-            <a href="https://www.cherwang.space" target = "_blank" style = "text-decoration: underline; color: inherit;cursor: pointer;">
+            <a href="https://www.cherwang.com" target = "_blank" style = "text-decoration: underline; color: inherit;cursor: pointer;">
                 Cher
             </a>
         </div>
